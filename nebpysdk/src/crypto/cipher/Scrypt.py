@@ -18,7 +18,7 @@ def int_of_string(iv):
     return int(binascii.hexlify(iv), 16)
 
 
-class Scrypt:
+class Scrypt(object):
 
     def encrypt(self, data: bytes, passphrase: bytes) -> CryptoJSON:
 

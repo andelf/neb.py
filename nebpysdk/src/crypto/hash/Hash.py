@@ -6,7 +6,7 @@
 import hashlib
 from Crypto.Hash import SHA3_256 as SHA3
 
-class Hash:
+class Hash(object):
 
     @classmethod
     def sha3256(cls, *args):

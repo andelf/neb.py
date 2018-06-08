@@ -13,7 +13,7 @@ from nebpysdk.src.core.Address import Address
 import base64
 
 
-class Account:
+class Account(object):
 
     def __init__(self, private_key=None):
         if private_key is None:

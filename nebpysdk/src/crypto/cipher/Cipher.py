@@ -8,7 +8,7 @@ from nebpysdk.src.crypto.cipher.Scrypt import Scrypt
 from nebpysdk.src.crypto.cipher.CryptoJSON import CryptoJSON
 
 
-class Cipher:
+class Cipher(object):
 
     def __init__(self, algorithm: Algorithm) -> None:
         if algorithm == Algorithm.SCRYPT:

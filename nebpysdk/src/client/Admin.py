@@ -6,7 +6,7 @@
 from nebpysdk.src.client.HttpRequest import HttpRequest
 
 
-class Admin:
+class Admin(object):
 
     def __init__(self, host="https://mainnet.nebulas.io", api_version="v1"):
         self._host = host

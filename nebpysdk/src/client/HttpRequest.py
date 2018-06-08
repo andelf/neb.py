@@ -7,7 +7,7 @@ import requests
 import json
 
 
-class HttpRequest:
+class HttpRequest(object):
 
     _timeout = 10 # 30s
 

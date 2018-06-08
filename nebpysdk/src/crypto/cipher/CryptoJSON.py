@@ -3,7 +3,7 @@
 # @Author  : GuoXiaoMin
 # @File    : CryptoJSON.py
 # @Software: PyCharm
-class CryptoJSON:
+class CryptoJSON(object):
 
     # version
     VERSION = 4

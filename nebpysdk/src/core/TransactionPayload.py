@@ -3,7 +3,7 @@
 # @Author  : GuoXiaoMin
 # @File    : TransactionPayload.py
 # @Software: PyCharm
-class TransactionPayload:
+class TransactionPayload(object):
 
     def to_bytes(self):
         pass

@@ -7,7 +7,7 @@ from nebpysdk.src.client.Api import Api
 from nebpysdk.src.client.Admin import Admin
 
 
-class Neb:
+class Neb(object):
 
 
     # todo host_const

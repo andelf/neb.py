@@ -9,7 +9,7 @@ if __name__=="__main__":
     #print(re.text)
 
     neb = Neb()
-    neb.set_Request()
+    neb.set_request()
     print(neb.api.getNebState().text)
     print(neb.api.latestIrreversibleBlock().text)
     print(neb.api.getAccountState("n1GDCCpQ2Z97o9vei2ajq6frrTPyLNCbnt7").text)

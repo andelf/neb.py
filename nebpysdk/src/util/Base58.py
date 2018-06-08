@@ -19,7 +19,7 @@ import binascii
 b58_digits = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
 
 
-class Base58:
+class Base58(object):
 
     @classmethod
     def encode(cls, b):

@@ -5,7 +5,7 @@
 # @Software: PyCharm
 
 
-class ByteUtils:
+class ByteUtils(object):
 
 
     @classmethod #

@@ -7,7 +7,7 @@ from nebpysdk.src.crypto.cipher.CryptoJSON import CryptoJSON
 import uuid
 
 
-class KeyJson:
+class KeyJson(object):
 
     def __init__(self, address, crypto):
         self.address = address

@@ -11,10 +11,12 @@ from nebpysdk.src.crypto.hash.Hash import Hash
 from nebpysdk.src.crypto.keystore.secp256k1.ECsignature import ECsignature
 from nebpysdk.src.crypto.keystore.Algorithm import Algorithm
 from nebpysdk.src.util.ByteUtils import ByteUtils
+from nebpysdk.src.account.Account import Account
+
 import base64
 
 
-class Transaction:
+class Transaction(object):
 
     # TransactionMaxGasPrice max gasPrice:1 * 10 ** 12
     __TransactionMaxGasPrice = 1000000000000

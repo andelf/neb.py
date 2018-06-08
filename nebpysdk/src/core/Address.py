@@ -8,7 +8,7 @@ import enum
 from nebpysdk.src.util.Base58 import Base58
 from nebpysdk.src.proto.generated.corepb import transaction_pb2
 
-class Address:
+class Address(object):
 
     __PaddingByte = bytearray(b'\x19')
     __NebulasFaith = 'n'
