@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 # @Time    : 2018/6/3 下午9:27
 # @Author  : GuoXiaoMin
@@ -10,7 +11,7 @@ import re
 
 class TransactionCallPayload(TransactionPayload):
 
-   @classmethod
+    @classmethod
     def dict2_transaction_call_payload(cls, data):
         return TransactionCallPayload(data['_function'],data['args'])
 

@@ -8,12 +8,12 @@ from nebpysdk.src.client.HttpRequest import HttpRequest
 
 class Admin:
 
-    def __init__(self, host="https://testnet.nebulas.io", api_version="v1"):
+    def __init__(self, host="https://mainnet.nebulas.io", api_version="v1"):
         self._host = host
         self._api_version = api_version
         self._path = "/admin"
 
-    def set_request(self, host="https://testnet.nebulas.io", api_version="v1"):
+    def set_request(self, host="https://mainnet.nebulas.io", api_version="v1"):
         self._host = host
         self._api_version = api_version
 
