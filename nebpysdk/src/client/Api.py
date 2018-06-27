@@ -115,4 +115,4 @@ class Api(object):
     def send_request(self, method, api, param):
         action = self._path + api
         url_api = self.create_url(action)
-        return HttpRequest.request(method, url_api, param, **self._config)
+        return HttpRequest.request(method, url_api, param, config=self._config)
