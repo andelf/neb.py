@@ -16,17 +16,14 @@ setup(
     description='NebulasSdkPy',
     #long_description=open('README.md').read(),
     install_requires=[
-        "certifi == 2018.4.16",
         "Crypto == 1.4.1",
         "eth-hash == 0.1.3",
         "eth-keyfile == 0.5.1",
         "eth-keys == 0.2.0b3",
         "eth-utils == 1.0.3",
         "protobuf == 3.5.2.post1",
-        "pycryptodome == 3.6.1",
         "pyscrypt == 1.6.2",
         "requests",
         "six",
-        "urllib3"
     ],
 )

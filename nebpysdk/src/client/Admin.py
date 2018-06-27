@@ -8,10 +8,11 @@ from nebpysdk.src.client.HttpRequest import HttpRequest
 
 class Admin(object):
 
-    def __init__(self, host="https://mainnet.nebulas.io", api_version="v1"):
+    def __init__(self, host="https://mainnet.nebulas.io", api_version="v1", config={}):
         self._host = host
         self._api_version = api_version
         self._path = "/admin"
+        self._config = config
 
     def set_request(self, host="https://mainnet.nebulas.io", api_version="v1"):
         self._host = host
@@ -100,4 +101,4 @@ class Admin(object):
     def send_request(self, method, api, param):
         action = self._path + api
         url_api = self.create_url(action)
-        return HttpRequest.request(method, url_api, param)
+        return HttpRequest.request(method, url_api, param, **self._config)
