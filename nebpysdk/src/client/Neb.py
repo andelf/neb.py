@@ -12,9 +12,9 @@ class Neb(object):
 
     # todo host_const
 
-    def __init__(self, host="https://mainnet.nebulas.io"):
-        self.api = Api(host=host)
-        self.admin = Admin(host=host)
+    def __init__(self, host="https://mainnet.nebulas.io", config={}):
+        self.api = Api(host=host, config=config)
+        self.admin = Admin(host=host, config=config)
 
     def set_request(self):
         self.api.set_request()

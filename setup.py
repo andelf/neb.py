@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='NebulasSdkPy',
-    version='0.3.0',
+    version='0.3.1',
     author='GuoXiaoMin',
     packages=find_packages(exclude=["test", "test.*"]),
     url='',
